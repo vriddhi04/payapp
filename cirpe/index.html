@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Property Search</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-pink-400 to-black flex items-center justify-center min-h-screen">
+
+    <!-- Container for Step Instruction and Mobile Mockup -->
+    <div class="flex flex-col lg:flex-row h-full w-full max-w-5xl p-6 lg:p-12">
+
+        <!-- Sidebar for Step Instruction -->
+        <div class="hidden lg:flex flex-col justify-center text-white lg:w-1/3">
+            <h2 class="text-2xl font-semibold mb-6">Step 1</h2>
+            <ul class="space-y-4">
+                <li class="flex items-center">
+                    <span class="text-white hover:text-yellow-300">•</span>
+                    <span class="ml-2 hover:text-yellow-300">Tenant selects the property</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="text-white hover:text-yellow-300">•</span>
+                    <span class="ml-2 hover:text-yellow-300">Tenant selects flexible rent tenure & corresponding amount</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile Screen Mockup -->
+        <div class="flex justify-center lg:w-2/3">
+            <div class="bg-white w-full max-w-xs rounded-2xl p-6 shadow-lg">
+                <!-- Search Bar -->
+                <div class="flex items-center justify-between mb-11">
+                    <input type="text" placeholder="Search your place here" class="bg-blue-100 p-5 rounded-xl text-sm text-black w-full placeholder-black">
+                    <!-- <img src="" alt="icon" class="absolute right-3 top-1/2 transform -translate-y-1/2 w-5 h-5"> -->
+                </div>
+                <!-- Property List -->
+                <div class="space-y-3.5">
+                    <!-- Property Item 1 -->
+                        <div class="bg-blue-100 rounded-2xl p-4 shadow-sm flex items-center">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 bg-gray-300 rounded-lg overflow-hidden">
+                            <img src="https://i.pinimg.com/originals/87/37/a4/8737a424f25b97811bb9b0a7f0560e3e.jpg" alt="Sky Dandelions Apartment" class="object-cover w-full h-full">
+                        </div>
+                        <div class="flex flex-col">
+                            <h4 class="text-sm font-semibold">Sky Dandelions Apartment</h4>
+                            <p class="text-gray-500 text-xs">4 BHK · 2,500 sq ft · Gurgaon</p>
+                            <p class="text-black font-semibold"><a href="step1.html">22,000/month</a> </p>
+                        </div>
+                    </div>
+                        </div>
+
+                    <!-- Property Item 2 -->
+                    <div class="bg-blue-100 rounded-2xl p-4 shadow-sm flex items-center">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 bg-gray-300 rounded-lg overflow-hidden">
+                            <img src="https://tse2.mm.bing.net/th?id=OIP.Q8xaBdNKHm66oO8y5j00FQEeDZ&pid=Api&P=0&h=180" alt="Wings Tower" class="object-cover w-full h-full">
+                        </div>
+                        <div class="flex flex-col">
+                            <h4 class="text-sm font-semibold">Wings Tower</h4>
+                            <p class="text-gray-500 text-xs">3 BHK · 2,000 sq ft · Gurgaon</p>
+                            <p class="text-black font-semibold"><a href="step1.html">₹ 17,000/month</a></p>
+                        </div>
+                    </div>
+                    </div>
+
+                    <!-- Property Item 3 -->
+                    <div class="bg-blue-100 rounded-2xl p-4 shadow-sm flex items-center">
+                    <div class="flex items-center space-x-4">
+                        <div class="w-16 h-16 bg-gray-300 rounded-lg overflow-hidden">
+                            <img src="https://tse4.mm.bing.net/th?id=OIP.e0iMmZWKbr-8rPu4uy9TdwHaLN&pid=Api&P=0&h=180" alt="Wayside Modern House" class="object-cover w-full h-full">
+                        </div>
+                        <div class="flex flex-col">
+                            <h4 class="text-sm font-semibold">Wayside Modern House</h4>
+                            <p class="text-gray-500 text-xs">5 BHK · 3,000 sq ft · Gurgaon</p>
+                            <p class="text-black font-semibold"><a href="step1.html">₹ 30,000/month</a></p>
+                        </div>
+                    </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>

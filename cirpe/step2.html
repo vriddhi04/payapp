@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Step 2 - Pay with Circle</title>
+    <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+</head>
+<body class="bg-gradient-to-r from-pink-400 to-black flex items-center justify-center min-h-screen">
+
+    <!-- Container for Step Instruction and Mobile Mockup -->
+    <div class="flex flex-col lg:flex-row h-full w-full max-w-5xl p-6 lg:p-12">
+
+        <!-- Sidebar for Step Instruction -->
+        <div class="hidden lg:flex flex-col justify-center text-white lg:w-1/3">
+            <h2 class="text-2xl font-semibold mb-6">Step 2</h2>
+            <ul class="space-y-4">
+                <li class="flex items-center">
+                    <span class="text-yellow-300">•</span>
+                    <span class="ml-2  hover:text-yellow-400" >Tenant selects Pay with Circle enabling:</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="text-white">•</span>
+                    <span class="ml-2  hover:text-yellow-400">Zero security deposit move-in</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="text-white">•</span>
+                    <span class="ml-2  hover:text-yellow-400">Reduced rent offer</span>
+                </li>
+                <li class="flex items-center">
+                    <span class="text-white">•</span>
+                    <span class="ml-2  hover:text-yellow-400">3 months salary cover</span>
+                </li>
+            </ul>
+        </div>
+
+        <!-- Mobile Screen Mockup -->
+        <div class="flex justify-center lg:w-2/3">
+            <div class="bg-white w-full max-w-xs rounded-2xl p-6 shadow-lg">
+                <!-- Rent Offer Section -->
+                <div class="bg-blue-50 p-4 rounded-lg mb-6">
+                    <h4 class="text-blue-500 text-sm font-semibold text-center mb-2">Rent at Zero security deposit!</h4>
+                    <div class="bg-blue-100 p-3 rounded-full flex items-center justify-center mb-4">
+                        <svg xmlns="http://www.w3.org/2000/svg" class="h-6 w-6 text-blue-500" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                            <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M5 13l4 4L19 7" />
+                        </svg>
+                        <span class="text-blue-500 ml-2 font-semibold">Approved</span>
+                    </div>
+                    <div class="space-y-2">
+                        <div class="flex justify-between text-sm text-gray-700">
+                            <span>New Rent Offer:</span>
+                            <span class="text-blue-500 font-semibold">₹ 20,000</span>
+                        </div>
+                        <div class="flex justify-between text-sm text-gray-700">
+                            <span>Zero security deposit move-in</span>
+                            <span class="text-blue-500 font-semibold">Move-in</span>
+                        </div>
+                        <div class="flex justify-between text-sm text-gray-700">
+                            <span>3-Months salary cover</span>
+                            <span class="text-blue-500 font-semibold">Cover</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Pay with Circle Button -->
+                <button class="w-full bg-blue-500 text-white py-3 rounded-full font-semibold flex items-center justify-center">
+                    <a href="step3.html">Pay with Happy Living</a>
+                    <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 ml-2" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+                        <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M13 7l5 5m0 0l-5 5m5-5H6" />
+                    </svg>
+                </button>
+            </div>
+        </div>
+    </div>
+
+</body>
+</html>
